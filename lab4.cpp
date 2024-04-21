@@ -1,8 +1,8 @@
 #include <iostream>
 #include <cmath>
 using namespace std;
-#define TOLX 0.0000001 // tolerancja b�edu
-#define TOLF 0.0000001 // tolerancja reziduum
+#define TOLX 1.0e-7 // tolerancja b�edu
+#define TOLF 1.0e-7 // tolerancja reziduum
 #define ITERACJE 15
 double f1(double x, double y, double z) {
 	return x * x + y * y + z * z - 2.0;
